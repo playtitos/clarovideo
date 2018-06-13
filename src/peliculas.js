@@ -90,7 +90,7 @@ export class Completo extends Component {
                         <div className='col-md-8 pel-desc'>
                             <p className='izq blanco'>{pelicula.description_large}</p>
                             <p className='izq blanco'>{duracion}</p>
-                            <Button className='der' outline color="white">{pelicula.rating_code}</Button>
+                            <Button className='izq' outline color="white">{pelicula.rating_code}</Button>
                         </div>
                     </div>
 
