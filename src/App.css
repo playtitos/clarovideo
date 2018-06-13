@@ -1,0 +1,110 @@
+body{
+  background-color: black !important;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.imagen-pelicula{
+  width: 100%;
+  margin: 10px 0 10px 0;
+}
+
+.margin-peliculas{
+  margin: 0.3%;
+}
+
+.contenedor-peliculas{
+  margin: 2% 10% 0 10%;
+  width: 80%;
+  float: left;
+}
+
+.buscador-input{
+  width: 50%;
+  margin: 2% 25% 0 25%;
+  float: left;
+}
+
+.form-control {
+    background-color: transparent !important;
+    color: white !important;
+}
+
+.izq{
+  float: left;
+  clear: both;
+}
+
+.der{
+  float: right;
+  clear: both;
+}
+
+.blanco{
+  color: white;
+  opacity: 1;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+
+.tam-com-pelicula{
+  height: 600px;
+  background-size: cover !important;
+  clear: both;
+  /*opacity: 0.4*/
+}
+
+.completo{
+  width: 100% !important;
+}
+
+.titulo-pelicula{
+  font-size: 2em;
+  margin: 1%;
+}
+
+.pel-desc{
+  float: left;
+  position: relative;
+  color: white;
+}
+
+.img-pelicula{
+  width: 30%;
+}
+
+.desc-pelicula{
+  width: 70%;
+}
