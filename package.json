@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.1.1",
+    "create-react-app": "^1.5.2",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-navigation": "^2.3.1",
